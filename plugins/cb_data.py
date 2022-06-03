@@ -13,7 +13,7 @@ from Script import script
 async def callback(bot, msg: CallbackQuery):
     if msg.data == "help":
         await msg.message.edit(
-            text=HELP_TXT, 
+            HELP_TXT, 
 	reply_markup=InlineKeyboardMarkup([[
           InlineKeyboardButton("🐼 𝐁𝐀𝐂𝐊 🐼",callback_data = "start"), 
 	  InlineKeyboardButton("↪️ 𝐂𝐥𝐨𝐬𝐞 ↩️",callback_data = "cancel")
