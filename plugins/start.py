@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 import humanize
 from helper.database import  insert 
-from Script import HELP_TXT
+from script import HELP_TXT
 from pyrogram.types import CallbackQuery
 
 @Client.on_message(filters.private & filters.command(["start"]))
