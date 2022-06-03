@@ -11,8 +11,7 @@ async def start(client,message):
 	await message.reply_photo(
         photo="https://telegra.ph/file/be833e64240bfd11a306d.jpg", 
         caption =f"""
-	<b> Iᴛ's PᴏᴡᴇʀFᴜʟ {message.from_user.mention} 🧛‍♂️ Fɪʟᴇs Rᴇɴᴀᴍᴇʀ Bᴏᴛ ➕ Fɪʟᴇ 2 Vɪᴅᴇᴏ Cᴏɴᴇʀᴛᴇʀ BOT Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ 💞....!! 
-Sʜᴀʀᴇ Aɴᴅ Sᴜᴘᴘᴏʀᴛ Us......!!! 🦋 </b>
+	<b> Iᴛ's PᴏᴡᴇʀFᴜʟ {message.from_user.mention} 🧛‍♂️ Fɪʟᴇs Rᴇɴᴀᴍᴇʀ Bᴏᴛ ➕ Fɪʟᴇ 2 Vɪᴅᴇᴏ Cᴏɴᴇʀᴛᴇʀ BOT Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ 💞....!! </b>
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup([[
           InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/BATMAN_0"), 
