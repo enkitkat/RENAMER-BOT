@@ -1,4 +1,4 @@
-
+class script(object):
 
     ABOUT_TXT = """ <b>╭────[ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘 ]────⍟
 ├🤖 𝐌ʏ 𝐍ᴀᴍᴇ: {}
