@@ -3,6 +3,7 @@ from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceRep
 import humanize
 from helper.database import  insert 
 from Script import script
+from Script import HELP_TXT
 from pyrogram.types import CallbackQuery
 
 @Client.on_message(filters.private & filters.command(["start"]))
