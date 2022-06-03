@@ -2,6 +2,8 @@ from pyrogram import Client, filters
 from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 import humanize
 from helper.database import  insert 
+from Script import HELP_TXT
+from pyrogram.types import CallbackQuery
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
@@ -22,6 +24,18 @@ async def start(client,message):
           ]]
           )
         )
+
+@Client.on_callback_query()
+async def callback(bot, msg: CallbackQuery):
+    if msg.data == "help":
+        await msg.message.edit(
+            text=HELP_TXT , 
+	reply_markup=InlineKeyboardMarkup([[
+          InlineKeyboardButton("🐼 𝐁𝐀𝐂𝐊 🐼",callback_data = "start"), 
+	  InlineKeyboardButton("↪️ 𝐂𝐥𝐨𝐬𝐞 ↩️",callback_data = "cancel")
+          ]]
+        ) 
+    ) 
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
 async def send_doc(client,message):
