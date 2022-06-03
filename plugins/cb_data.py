@@ -7,7 +7,7 @@ from helper.database import find
 import os
 from PIL import Image
 import time
-from Script import HELP_TXT
+from Script import script
 
 @Client.on_callback_query()
 async def callback(bot, msg: CallbackQuery):
