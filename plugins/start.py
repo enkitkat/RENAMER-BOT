@@ -12,13 +12,13 @@ async def start(client,message):
 	𝐈𝐭'𝐬 𝐏𝐨𝐰𝐞𝐫 𝐅𝐮𝐥𝐥 {message.from_user.mention} 😎 𝐅𝐢𝐥𝐞 𝐑𝐞𝐧𝐚𝐦𝐞𝐫 𝐛𝐨𝐭 + 𝐅𝐢𝐥𝐞 𝟐 𝐕𝐢𝐝𝐞𝐨 𝐂𝐨𝐧𝐞𝐫𝐭𝐞𝐫 𝐁𝐎𝐓 𝐰𝐢𝐭𝐡 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 💖 𝐒𝐡𝐚𝐫𝐞 𝐀𝐧𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬.....!!!🦋
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup([[
-          InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭" ,url="https://t.me/+MB8a61q_98A3MThl"), 
-	  InlineKeyboardButton("𝐔𝐩𝐝𝐚𝐭𝐞", url="https://t.me/+hR6DpC_xpPBiM2Zl")
+          InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ" ,url="https://t.me/+MB8a61q_98A3MThl"), 
+	  InlineKeyboardButton("Uᴘᴅᴀᴛᴇ", url="https://t.me/+hR6DpC_xpPBiM2Zl")
           ],[
-          InlineKeyboardButton("🧩 𝐂𝐨𝐧𝐭𝐚𝐜𝐓 🥷 𝐀𝐝𝐦𝐢𝐍 🧩", url="https://t.me/kr_admin_bot")
+          InlineKeyboardButton("🧩 Cᴏɴᴛᴀᴄᴛ 🧛‍♂️ Aᴅᴍɪɴ 🧩", url="https://t.me/kr_admin_bot")
           ],[
-          InlineKeyboardButton("🧞‍♀️ 𝐇𝐞𝐥𝐩 🧞‍♂️",callback_data = "help"), 
-          InlineKeyboardButton("↪️ <b> Cʟᴏsᴇ </b> ↩️",callback_data = "cancel")
+          InlineKeyboardButton("🧞‍♀️ Hᴇʟᴘ 🧞‍♂️",callback_data = "help"), 
+          InlineKeyboardButton("↪️ Cʟᴏsᴇ ↩️",callback_data = "cancel")
           ]]
           )
         )
@@ -33,5 +33,5 @@ async def send_doc(client,message):
        await message.reply_text(
        f"""__What do you want me to do with this file?__\n**File Name** :- <code>{filename}</code> \n**File Size** :- {filesize}"""
        ,reply_to_message_id = message.message_id,
-       reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📝** 𝐑ᴇɴᴀᴍᴇ ** ",callback_data = "rename")
-       ,InlineKeyboardButton("🧩** 𝐂ʟᴏsᴇ **🧩",callback_data = "cancel")  ]]))
+       reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📝 𝐑ᴇɴᴀᴍᴇ ",callback_data = "rename")
+       ,InlineKeyboardButton("↪️ 𝐂ʟᴏsᴇ ↩️",callback_data = "cancel")  ]]))
