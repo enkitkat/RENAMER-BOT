@@ -2,8 +2,8 @@ class script(object):
 
     ABOUT_TXT = """ <b>╭────[ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘 ]────⍟
 ├🤖 𝐌ʏ 𝐍ᴀᴍᴇ: {}
-├👑 𝐎ᴡɴᴇʀ : <a href=https://t.me/Happy_kid_sk>𝑯𝒂𝒑𝒑𝒚 🥷 𝑲𝒊𝒅</a>
-├😎 𝐃ᴇᴠs : <a href=https://t.me/Happy_kid_sk>❦︎𝐇ᴀᴘᴘʏ❦︎</a>
+├👑 𝐎ᴡɴᴇʀ : <a https://t.me/BATMAN_0>𝑯𝒂𝒑𝒑𝒚 🥷 BATMAN</a>
+├😎 𝐃ᴇᴠs : <a href=https://t.me/BATMAN_0>❦︎BATMAN❦︎</a>
 ├📕 𝐋ɪʙʀᴀʀʏ : 𝐘ʀᴏɢʀᴀᴍ
 ├✏️ 𝐋ᴀɴɢᴜᴀɢᴇ : 𝐏ʏᴛʜᴏɴ 𝟹
 ├💾 𝐃ᴀᴛᴀ 𝐁ᴀsᴇ : 𝐌ᴏɴɢᴏ ᴅʙ
@@ -27,4 +27,4 @@ class script(object):
 - /settings - 𝙲𝚘𝚗𝚏𝚒𝚐𝚞𝚛𝚎 𝚂𝚎𝚝𝚝𝚒𝚗𝚐𝚜 
 - /show_thumb & /del_thumb - 𝙵𝚘𝚛 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕
 
-© 𝙼𝚊𝚍𝚎 𝚠𝚒𝚝𝚑 ❣️ @KR_BOTZ & @BGM_LinkzZ """
+© MADE BY ❣️ BATMAN """
